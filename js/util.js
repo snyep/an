@@ -31,7 +31,8 @@ function isOs(){
 
 var andriodUrl="http://112.5.82.146:8008/umserver/ZSYZ.apk";
 var iosUrl="http://mbs.yyuap.com:8080/ump/web/appdownload/download?type=ios&buildId=51899&fileName=ZSYZ.plist";
-var version="1004";
+//var version="1004";
+var version="1005";
 
 var https=isOs()=="android"?"file:///android_asset/www/js/":isOs()=="ios"?"file://"+window.location.pathname.split("www/")[0]+"www/js/":"E:/FJSN_ZSYZWorkspace/ZSYZ/js/";
 //var https="https://szsncs.github.io/an/js/";
